@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .footer-logo-box-text {
@@ -80,12 +80,12 @@
 }
 
 .footer-slash {
-  padding: 0 5px;
+  margin: 0 5px;
 }
 
 @media screen and (min-width: 326px) {
   .footer-slash {
-    padding: 0 8px;
+    margin: 0 8px;
   }
 }
 
