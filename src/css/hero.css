@@ -1,5 +1,8 @@
 /* ====================Section Hero=================== */
 /*======Mobile======*/
+/* .containter-pad-mob {
+  padding: 80px 0 80px 0;
+} */
 .section-hero {
   max-width: 375px;
   min-height: 712px;
@@ -8,6 +11,7 @@
   background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 600;
@@ -23,7 +27,6 @@
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
-  margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .section-hero {
@@ -34,6 +37,9 @@
 /*======/Mobile======*/
 /*======Tablet======*/
 @media screen and (min-width: 768px) {
+  /* .container-pad {
+    padding: 100px 0 100px 0;
+  } */
   .section-hero {
     max-width: 768px;
     min-height: 902px;
@@ -42,6 +48,7 @@
       url(/img/hero/bg-vegetables-tab.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
+    margin: 0 auto;
   }
   .hero-title {
     font-weight: 600;
@@ -71,14 +78,14 @@
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables.jpg);
     background-repeat: no-repeat;
     background-position: right;
+    margin: 0 auto;
   }
   .container {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     gap: 128px;
     padding: 0;
-    margin-left: 100px;
+    margin: 0 0 0 100px;
     max-width: 502px;
     max-height: 562px;
   }
@@ -94,8 +101,7 @@
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-hero {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(../img/hero/bg-vegetables@2x.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables@2x.jpg);
   }
 }
 /*======/Desktop======*/
