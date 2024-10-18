@@ -1,14 +1,17 @@
 /* ====================Section Hero=================== */
 /*======Mobile======*/
-/* .containter-pad-mob {
-  padding: 80px 0 80px 0;
-} */
+
+.containter-pad-mob {
+  padding-top: 100px;
+}
+
 .section-hero {
-  max-width: 375px;
-  min-height: 712px;
+  min-width: 375px;
+  min-height: 812px;
   background-color: #576f35;
   background-size: 375px 370px;
-  background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables-mob.jpg);
+  background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+    url('/img/hero/bg-vegetables-mob.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
   margin: 0 auto;
@@ -31,21 +34,21 @@
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .section-hero {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/img/hero/bg-vegetables-mob@2x.jpg);
+      url('/img/hero/bg-vegetables-mob@2x.jpg');
   }
 }
 /*======/Mobile======*/
 /*======Tablet======*/
 @media screen and (min-width: 768px) {
-  /* .container-pad {
-    padding: 100px 0 100px 0;
-  } */
+  .container-pad {
+    padding-top: 122px;
+  }
   .section-hero {
     max-width: 768px;
-    min-height: 902px;
+    min-height: 1024px;
     background-size: 768px 539px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/img/hero/bg-vegetables-tab.jpg);
+      url('/img/hero/bg-vegetables-tab.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0 auto;
@@ -59,13 +62,12 @@
     max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 767px) and (min-resolution: 192dpi) {
   .section-hero {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url(/img/hero/bg-vegetables-tab@2x.jpg);
+      url('/img/hero/bg-vegetables-tab@2x.jpg');
   }
 }
 /*======/Tablet======*/
@@ -75,9 +77,10 @@
     max-width: 1280px;
     min-height: 800px;
     background-size: 650px 800px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
     background-position: right;
+    padding: 238px 678px 0 100px;
     margin: 0 auto;
   }
   .container {
@@ -85,23 +88,23 @@
     flex-direction: column;
     gap: 128px;
     padding: 0;
-    margin: 0 0 0 100px;
+    /* margin: 0 0 0 100px; */
     max-width: 502px;
     max-height: 562px;
   }
   .hero-title {
-    margin-top: 238px;
     margin-bottom: 0;
   }
   .hero-text {
     max-width: 472px;
-    margin-bottom: 0px;
-    padding-right: 20px;
+    margin-bottom: 50px;
+    /* padding-right: 20px; */
   }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-hero {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(/img/hero/bg-vegetables@2x.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
+      url('/img/hero/bg-vegetables@2x.jpg');
   }
 }
 /*======/Desktop======*/
