@@ -205,9 +205,11 @@
 
   .footer-contacts {
     margin: 0;
+    width: 100%;
   }
 
   .footer-menu-list {
     margin-right: 121px;
+    width: 100%;
   }
 }
