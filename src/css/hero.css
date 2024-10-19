@@ -1,6 +1,7 @@
 /* ====================Section Hero=================== */
 /*======Mobile======*/
 .section-hero {
+  position: relative;
   min-width: 375px;
   min-height: 812px;
   background-color: #576f35;
