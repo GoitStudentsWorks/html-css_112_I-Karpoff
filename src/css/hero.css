@@ -1,9 +1,5 @@
 /* ====================Section Hero=================== */
 /*======Mobile======*/
-.containter-pad-mob {
-  padding-top: 100px;
-}
-
 .section-hero {
   min-width: 375px;
   min-height: 812px;
@@ -13,7 +9,10 @@
     url('/img/hero/bg-vegetables-mob.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+}
+.containter-pad-mob {
+  padding: 100px 0 0 0;
 }
 .hero-title {
   font-weight: 600;
@@ -43,7 +42,7 @@
     padding-top: 122px;
   }
   .section-hero {
-    max-width: 100%;
+    min-width: 768px;
     min-height: 1024px;
     background-size: 768px 539px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
