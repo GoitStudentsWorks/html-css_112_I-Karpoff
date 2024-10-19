@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    list-style: none;
 }
 .how-it-list-chapter{
     background-color: #FBFBFB;
