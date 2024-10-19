@@ -10,7 +10,6 @@
     url('/img/hero/bg-vegetables-mob.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
-  /* margin: 0 auto; */
 }
 .containter-pad-mob {
   padding: 100px 0 0 0;
@@ -79,10 +78,11 @@
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
     background-position: right;
-    padding: 238px 678px 0 100px;
     margin: 0 auto;
   }
   .hero-container {
+    position: absolute;
+    transform: translate(100px, 108px);
     display: flex;
     flex-direction: column;
     gap: 128px;
@@ -95,7 +95,6 @@
   }
   .hero-text {
     max-width: 472px;
-    margin-bottom: 50px;
     padding-right: 20px;
   }
 }
