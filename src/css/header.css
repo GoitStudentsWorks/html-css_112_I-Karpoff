@@ -1,7 +1,11 @@
-.header {
-  background-color: #576f35;
-}
 .header-container {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -95,6 +99,7 @@
     border-radius: 12px;
     padding: 12px;
     background-color: transparent;
+    transition: color, background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header-shop-btn {
     display: flex;
@@ -114,6 +119,13 @@
     margin-left: 20px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .header-nav-list-item:hover,
+  .header-nav-list-item:focus {
+    color: #7a3145;
+    background-color: #fbfbfb;
+  }
+
   .header-shop-btn:hover,
   .header-shop-btn:focus {
     background-color: #622133;
