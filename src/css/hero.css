@@ -44,7 +44,7 @@
     padding-top: 122px;
   }
   .section-hero {
-    max-width: 768px;
+    max-width: 100%;
     min-height: 1024px;
     background-size: 768px 539px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
@@ -74,7 +74,7 @@
 /*======Desktop======*/
 @media screen and (min-width: 1280px) {
   .section-hero {
-    max-width: 1280px;
+    max-width: 100%;
     min-height: 800px;
     background-size: 650px 800px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
