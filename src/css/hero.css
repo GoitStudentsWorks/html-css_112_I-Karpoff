@@ -81,7 +81,7 @@
     padding: 238px 678px 0 100px;
     margin: 0 auto;
   }
-  .container {
+  .hero-container {
     display: flex;
     flex-direction: column;
     gap: 128px;
