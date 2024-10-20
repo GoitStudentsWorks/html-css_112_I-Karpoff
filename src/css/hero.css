@@ -2,7 +2,7 @@
 /*======Mobile======*/
 .section-hero {
   position: relative;
-  min-width: 375px;
+  /* min-width: 375px; */
   min-height: 812px;
   background-color: #576f35;
   background-size: 375px 370px;
@@ -36,7 +36,7 @@
 /*======/Mobile======*/
 /*======Tablet======*/
 @media screen and (min-width: 768px) {
-  .container-pad {
+  .container-pad-hero {
     padding-top: 122px;
   }
   .section-hero {
