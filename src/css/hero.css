@@ -7,7 +7,7 @@
   background-color: #576f35;
   background-size: 375px 370px;
   background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-    url('/img/hero/bg-vegetables-mob.jpg');
+    url('../img/hero/bg-vegetables-mob.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -32,7 +32,7 @@
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .section-hero {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('/img/hero/bg-vegetables-mob@2x.jpg');
+      url('../img/hero/bg-vegetables-mob@2x.jpg');
   }
 }
 /*======/Mobile======*/
@@ -46,7 +46,7 @@
     min-height: 1024px;
     background-size: 768px 539px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('/img/hero/bg-vegetables-tab.jpg');
+      url('../img/hero/bg-vegetables-tab.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0 auto;
@@ -65,7 +65,7 @@
 @media screen and (min-width: 767px) and (min-resolution: 192dpi) {
   .section-hero {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('/img/hero/bg-vegetables-tab@2x.jpg');
+      url('../img/hero/bg-vegetables-tab@2x.jpg');
   }
 }
 /*======/Tablet======*/
@@ -75,7 +75,7 @@
     max-width: 100%;
     min-height: 800px;
     background-size: 650px 800px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('../img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
     background-position: right;
     margin: 0 auto;
@@ -101,7 +101,7 @@
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .section-hero {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
-      url('/img/hero/bg-vegetables@2x.jpg');
+      url('../img/hero/bg-vegetables@2x.jpg');
   }
 }
 /*======/Desktop======*/
