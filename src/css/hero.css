@@ -2,7 +2,6 @@
 /*======Mobile======*/
 .section-hero {
   position: relative;
-  /* min-width: 375px; */
   min-height: 812px;
   background-color: #576f35;
   background-size: 375px 370px;
@@ -70,23 +69,21 @@
 /*======Desktop======*/
 @media screen and (min-width: 1280px) {
   .section-hero {
-    max-width: 100%;
     min-height: 800px;
-    background-size: 650px 800px;
+    background-size: 50% 800px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
-    background-position: right;
-    margin: 0 auto;
+    background-position: 100%;
   }
   .hero-container {
     position: absolute;
-    transform: translate(100px, 108px);
+    transform: translate(0px, 116px);
     display: flex;
     flex-direction: column;
     gap: 128px;
     padding: 0;
     max-width: 502px;
-    max-height: 562px;
+    min-height: 562px;
     z-index: 100;
   }
   .hero-title {
