@@ -70,20 +70,23 @@
 /*======Desktop======*/
 @media screen and (min-width: 1280px) {
   .section-hero {
-    max-width: 100%;
+    min-width: 1280px;
     min-height: 800px;
-
     margin: 0 auto;
-  }
-  .container-img {
-    background-size: 50% 100%;
+    background-size: 650px 800px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 100% 0;
   }
+  /* .container-img {
+      background-size: 650px 800px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+  } */
   .hero-container {
     position: absolute;
-    transform: translate(100px, 108px);
+    transform: translate(0px, 116px);
     display: flex;
     flex-direction: column;
     gap: 128px;
