@@ -2,7 +2,7 @@
 /*======Mobile======*/
 .section-hero {
   position: relative;
-  min-width: 375px;
+  /* min-width: 375px; */
   min-height: 812px;
   background-color: #576f35;
   background-size: 375px 370px;
@@ -11,9 +11,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.containter-pad-mob {
-  padding: 100px 0 0 0;
-}
+
 .hero-title {
   font-weight: 600;
   font-size: 48px;
@@ -38,7 +36,7 @@
 /*======/Mobile======*/
 /*======Tablet======*/
 @media screen and (min-width: 768px) {
-  .container-pad {
+  .container-pad-hero {
     padding-top: 122px;
   }
   .section-hero {
@@ -89,6 +87,7 @@
     padding: 0;
     max-width: 502px;
     max-height: 562px;
+    z-index: 100;
   }
   .hero-title {
     margin-bottom: 0;
