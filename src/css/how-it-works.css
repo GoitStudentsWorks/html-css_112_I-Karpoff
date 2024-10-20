@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: column;
     gap: 0;
-   
-}
+    background-color: #7A3145;
+} 
 
 .image-container{
-    background-color: #7A3145;
     height: 530px;
     align-items: center;
     padding-top: 40px;
@@ -28,17 +27,12 @@
     flex-direction: column;
     gap: 20px;
     list-style: none;
+    counter-reset: my-counter;
 }
-.how-it-list-chapter{
-    background-color: #FBFBFB;
-    max-width: 335px;
-    border-radius: 15px;
-    display: flex;
-    gap: 24px;
-    padding: 12px 24px;
-    align-items: center;
-}
-.list-number{
+.how-it-list li::before {
+    content: counter(my-counter);
+    counter-increment: my-counter;
+    font-weight: 700;
     color: white;
     background-color: #7A3145;
     border-radius: 100%;
@@ -48,7 +42,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+.how-it-list-chapter{
+    background-color: #FBFBFB;
+    max-width: 335px;
+    border-radius: 15px;
+    display: flex;
+    gap: 24px;
+    padding: 12px 24px;
+    align-items: center;
 }
+
 
 .how-it-works_image{
     border-radius: 30px;
@@ -93,6 +97,9 @@
 }
 
 @media screen and (min-width: 768px){
+    .container-pad{
+        padding: 100px 0 100px 0;
+    }
       .container-pad-mob{
         padding: 0;
       }
@@ -106,7 +113,8 @@
     }
     .how-it-works-paragraph{
         font-size: 16px;
-        line-height: 125%;
+        line-height: 125%;  
+        height: 60px;
     }
     .how-it-works-list-paragraph{
         font-size: 16px;
@@ -115,6 +123,9 @@
     }
     .how-it-works-title{
         font-size: 32px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        line-height: 100%;
     }
     .how-it-list-chapter{
         max-width: 450px;
@@ -131,5 +142,11 @@
         }    
         .order-section{
             width: calc(100%/2);
+        }
+        .how-it-works-title{
+            margin-bottom: 25px;
+        }
+        .how-it-works-paragraph{
+            margin-bottom: 50px;
         }
 }
