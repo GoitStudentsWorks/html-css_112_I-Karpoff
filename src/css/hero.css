@@ -2,6 +2,7 @@
 /*======Mobile======*/
 .section-hero {
   position: relative;
+  /* min-width: 375px; */
   min-height: 812px;
   background-color: #576f35;
   background-size: 375px 370px;
@@ -69,25 +70,32 @@
 /*======Desktop======*/
 @media screen and (min-width: 1280px) {
   .section-hero {
-    min-height: 800px;
-    background-size: 50% 800px;
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
-    background-repeat: no-repeat;
-    background-position: 100%;
-  }
-  .hero-container {
-    position: absolute;
-    transform: translate(0px, 116px);
-    display: flex;
-    flex-direction: column;
-    gap: 128px;
+    background-image: none;
     padding: 0;
-    max-width: 502px;
-    min-height: 562px;
-    z-index: 100;
+    min-height: auto;
   }
+
+  .hero-image {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
+    width: 650px;
+    height: 800px;
+    margin-right: -100px;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .hero-content {
+    max-width: 502px;
+    margin-top: auto;
+    margin-bottom: 50px;
+  }
+
   .hero-title {
-    margin-bottom: 0;
+    margin-bottom: 128px;
   }
   .hero-text {
     max-width: 472px;
@@ -95,10 +103,12 @@
   }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .section-hero {
+  .hero-image {
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)),
       url('/img/hero/bg-vegetables@2x.jpg');
+    background-size: 100% auto;
   }
 }
+
 /*======/Desktop======*/
 /* =======================/Hero========================= */
