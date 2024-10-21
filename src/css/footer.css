@@ -51,6 +51,11 @@
   color: #fbfbfb;
 }
 
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  text-decoration: underline;
+}
+
 .footer-contacts {
   font-style: normal;
 }
@@ -62,6 +67,11 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  text-decoration: underline;
 }
 
 .footer-contacts-text {
