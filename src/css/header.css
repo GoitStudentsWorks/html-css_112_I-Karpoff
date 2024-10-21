@@ -96,9 +96,11 @@
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
-    padding: 12px;
     background-color: transparent;
     transition: color, background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-nav-list-item-link {
+    padding: 12px;
   }
   .header-shop-btn {
     display: flex;
