@@ -101,7 +101,7 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 335px) {
   .footer-privacy-policy-item:not(:last-child)::after {
     margin-left: 4px;
     margin-right: 8px;
