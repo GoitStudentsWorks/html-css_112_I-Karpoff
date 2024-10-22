@@ -27,7 +27,7 @@
 }
 
 .header-nav-list,
-.header-shop-btn {
+.header-shop-link {
   display: none;
 }
 
@@ -102,7 +102,7 @@
   .header-nav-list-item-link {
     padding: 12px;
   }
-  .header-shop-btn {
+  .header-shop-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,8 +127,8 @@
     background-color: #fbfbfb;
   }
 
-  .header-shop-btn:hover,
-  .header-shop-btn:focus {
+  .header-shop-link:hover,
+  .header-shop-link:focus {
     background-color: #622133;
   }
 }
